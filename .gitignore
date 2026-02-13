@@ -1,0 +1,40 @@
+# Archivos temporales
+*.tmp.*
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# LaTeX auxiliares (si se incluyen)
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bcf
+*.run.xml
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+
+# Figuras generadas (se regeneran desde scripts)
+# *.pdf
+# *.png
+
+# Archivos de memoria/notas locales
+memoria.md
